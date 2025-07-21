@@ -22440,6 +22440,9 @@
 @media (min-width: 768px) and (max-width: 910px) {
   .br_none {
     display: none; } }
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .trending_area .trending_card_wrapper .row {
+    gap: 20px; } }
 .trending_area.style_1 {
   background-color: #191919; }
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
@@ -27922,7 +27925,6 @@
     gap: 10px; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .blog-post-tag .post-tag-list {
-        gap: 8px;
         flex-wrap: wrap; } }
     .blog-post-tag .post-tag-list a {
       padding: 5px 10px;

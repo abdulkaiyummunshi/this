@@ -839,6 +839,13 @@
     }
 }
 .trending_area{
+    .trending_card_wrapper{
+        .row{
+            @include sm{
+                gap: 20px;
+            }
+        }
+    }
     &.style_1{
         background-color: $--nine;
     }
