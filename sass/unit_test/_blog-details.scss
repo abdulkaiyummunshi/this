@@ -5,6 +5,7 @@
   @include flex(row, flex-start, center);
   flex-wrap: wrap;
   gap: 15px;
+
   .title{
     color: $--white;
     font-size: 22px;
@@ -14,6 +15,9 @@
   .post-tag-list{
     @include flex(row, flex-start, center);
     gap: 10px;
+    @include sm{
+      gap: 8px;
+    }
     a{
       padding: 5px 10px;
       color: $--white;
