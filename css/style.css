@@ -25000,14 +25000,13 @@
         object-fit: contain;
         z-index: 100;
         cursor: pointer; }
+    .footer .footer_area_quick_menu .describtion p {
+      opacity: 0.7; }
     .footer .footer_area_quick_menu p {
       font-family: "font1", sans-serif;
       font-weight: 500;
       font-size: 18px;
-      color: #fff;
-      opacity: 0.7; }
-      .footer .footer_area_quick_menu p a {
-        opacity: 1; }
+      color: #fff; }
     .footer .footer_area_quick_menu .iteam_content p {
       font-family: "font1", sans-serif;
       font-weight: 400;
