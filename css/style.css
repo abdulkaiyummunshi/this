@@ -23133,7 +23133,9 @@
 
 /*---Trending End---*/
 /*---Most Recent Start---*/
-.trending_contains
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .most_recent_area .trending_contains {
+    padding-top: 0px !important; } }
 .most_recent_area.style_1 {
   background-color: #191919; }
 @media only screen and (min-width: 992px) and (max-width: 1024px) {
@@ -23637,6 +23639,13 @@
   position: relative; }
   .life_hacks_area.style_1 {
     background-color: #191919; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .life_hacks_area .trending_new_card.style_4 {
+      padding: 13px !important;
+      gap: 0px !important; }
+    .life_hacks_area .trending_new_card .trending_contains {
+      padding-top: 0px !important;
+      padding-left: 0px !important; } }
   .life_hacks_area .left-arrow {
     border: 1px solid #c1c1c1;
     background-color: #f4f6fa;

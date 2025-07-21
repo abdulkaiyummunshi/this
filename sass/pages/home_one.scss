@@ -2206,6 +2206,18 @@
     &.style_1{
         background-color: $--nine;
     }
+    .trending_new_card{
+        @include sm{
+            &.style_4{
+                padding: 13px !important;
+                gap: 0px !important;
+            }
+            .trending_contains{
+                padding-top: 0px !important;
+                padding-left: 0px !important;
+            }
+        }
+    }
     .left-arrow{
         @include md{
             display: none !important;
