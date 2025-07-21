@@ -27922,7 +27922,8 @@
     gap: 10px; }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .blog-post-tag .post-tag-list {
-        gap: 8px; } }
+        gap: 8px;
+        flex-wrap: wrap; } }
     .blog-post-tag .post-tag-list a {
       padding: 5px 10px;
       color: #fff;
