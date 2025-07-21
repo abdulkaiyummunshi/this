@@ -28634,7 +28634,8 @@
         position: relative; }
         .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-video img {
           border-radius: 20px;
-          width: 100%; }
+          width: 100%;
+          max-height: 550px; }
         .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-video .video-btn {
           position: absolute;
           top: 50%;
@@ -28848,9 +28849,9 @@
             justify-content: center;
             align-items: center;
             padding: 4px 10px;
-            border: 1px solid  red;
+            border: 1px solid rgba(193, 193, 193, 0.5);
             border-radius: 50px;
-            color: #4a494a;
+            color: #fff;
             font-size: 14px;
             font-weight: 400; }
             .blog-area .blog-details-wrapper .single-post-item.single-video-post .post-content-wrapper .single-post-meta .blog-post-tag .post-tag-list a:hover {

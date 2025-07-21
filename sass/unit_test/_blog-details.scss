@@ -1114,6 +1114,7 @@ padding-right: 20px;
             img {
               border-radius: 20px;
               width: 100%;
+              max-height: 550px;
             }
             .video-btn{
               position: absolute;
@@ -1387,9 +1388,9 @@ padding-right: 20px;
                     justify-content: center;
                     align-items: center;
                     padding: 4px 10px;
-                    border: 1px solid  red;
+                    border: 1px solid rgba(193, 193, 193, 0.5);
                     border-radius: 50px;
-                    color:  $gray-800;
+                    color:  $--white;
                     font-size: 14px;
                     font-weight: 400;
                     &:hover {
