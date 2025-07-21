@@ -28855,7 +28855,7 @@
       align-items: center;
       margin-top: 20px; }
       .blog-area .blog-details-wrapper .single-post-item.format-audio .post-content-wrapper .post-meta a {
-        color: black; }
+        color: #fff; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .blog-area .blog-details-wrapper .single-post-item.format-audio .post-content-wrapper .post-meta {
           gap: 15px; } }
@@ -28902,7 +28902,7 @@
           display: none; } }
     .blog-area .blog-details-wrapper .single-post-item.format-audio .post-content-wrapper .post-title {
       font-size: 40px;
-      color: #07000e;
+      color: #fff;
       font-weight: 700;
       margin-top: 20px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
