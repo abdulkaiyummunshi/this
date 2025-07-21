@@ -22568,7 +22568,7 @@
   border: 1px solid #c1c1c1; }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .trending_area .trending_sidebar .social_area .row .col-lg-6:nth-child(2) {
-      margin-top: 20px; } }
+      margin-top: 10px; } }
 .trending_area .trending_sidebar .social_media {
   display: flex;
   flex-direction: row;
@@ -27971,7 +27971,9 @@
   position: relative;
   overflow: hidden;
   padding-top: 135px;
-  padding-bottom: 135px; }
+  padding-bottom: 135px;
+  padding-left: 20px;
+  padding-right: 20px; }
   .blog-area.for-blog {
     padding-bottom: 110px; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -29033,9 +29035,9 @@
           justify-content: center;
           align-items: center;
           padding: 4px 10px;
-          border: 1px solid  red;
+          border: 1px solid rgba(193, 193, 193, 0.5);
           border-radius: 50px;
-          color: #4a494a;
+          color: #fff;
           font-size: 14px;
           font-weight: 400; }
           .blog-area .blog-details-wrapper .single-post-item.format-audio .post-content-wrapper .single-post-meta .blog-post-tag .post-tag-list a:hover {
