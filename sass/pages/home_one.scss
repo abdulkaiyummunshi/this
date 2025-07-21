@@ -763,7 +763,6 @@
         @include flex(row, flex-start, center);
         flex-wrap: wrap;
         gap: 20px;
-        // border: 1px solid $--p5;
         @include border-radius(5px);
         @include sm{
             gap: 10px !important;
