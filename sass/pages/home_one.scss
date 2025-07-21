@@ -992,6 +992,14 @@
     .trending_sidebar{
         .social_area{
             .row{
+                @include md{
+                    .col-lg-6{
+                        &:nth-child(2){
+                            margin-top: 10px;
+
+                        }
+                    }
+                }
                 @include sm{
                     .col-lg-6{
                         &:nth-child(2){

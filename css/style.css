@@ -22572,6 +22572,9 @@
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .trending_area .trending_sidebar .social_area .row .col-lg-6:nth-child(2) {
       margin-top: 10px; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .trending_area .trending_sidebar .social_area .row .col-lg-6:nth-child(2) {
+      margin-top: 10px; } }
 .trending_area .trending_sidebar .social_media {
   display: flex;
   flex-direction: row;
