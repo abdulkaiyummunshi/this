@@ -1244,10 +1244,15 @@
     }
     &.style_2{
         gap: 40px;
+
         @include nesthub{
             gap: 20px;
             flex-direction: column;
             
+
+        }
+        @include sm{
+            gap: 0px;
         }
         &.style_02{
             padding-left: 40px;

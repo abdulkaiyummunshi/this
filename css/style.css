@@ -22792,6 +22792,9 @@
       .trending_new_card.style_2 {
         gap: 20px;
         flex-direction: column; } }
+    @media only screen and (min-width: 0px) and (max-width: 767px) {
+      .trending_new_card.style_2 {
+        gap: 0px; } }
     .trending_new_card.style_2.style_02 {
       padding-left: 40px; }
       @media only screen and (min-width: 992px) and (max-width: 1024px) {
