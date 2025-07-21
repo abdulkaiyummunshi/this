@@ -24760,13 +24760,13 @@
       .heading_area .sub_heading.style_3::after {
         display: none !important; } }
   .heading_area .sub_heading.style_4::after {
-    width: 80%; }
+    width: 80% !important; }
     @media only screen and (min-width: 1025px) and (max-width: 1280px) {
       .heading_area .sub_heading.style_4::after {
-        width: 65%; } }
+        width: 65% !important; } }
     @media only screen and (min-width: 992px) and (max-width: 1024px) {
       .heading_area .sub_heading.style_4::after {
-        width: 70%; } }
+        width: 70% !important; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .heading_area .sub_heading.style_4::after {
         display: none !important; } }
