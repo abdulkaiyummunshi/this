@@ -9,7 +9,7 @@
         $('#mobile-menu').meanmenu({
             meanMenuContainer: '.mobile-menu',
             meanScreenWidth: "1199",
-            meanExpand: ['<i class="far fa-plus"></i>'],
+            meanExpand: ['<i class="fa-solid fa-plus"></i>'],
         });
 
         //>> Sidebar Toggle Js Start <<//
