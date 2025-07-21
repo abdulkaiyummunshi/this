@@ -1124,7 +1124,6 @@
         width: calc(100% - 150px);
        @include sm{
         padding: 17px !important;
-        padding-top: 0px !important;
        }
     }
     .image{
@@ -1651,6 +1650,11 @@
 
 /*---Most Recent Start---*/
 .most_recent_area{
+    .trending_contains {
+        @include sm{
+            padding-top: 0px !important;
+        }
+    }
     &.style_1{
         background-color: $--nine;
     }
