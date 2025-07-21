@@ -25683,7 +25683,11 @@
 
 .mean-container .mean-nav ul li > a.mean-expand i {
   display: inline-block;
-  font-size: 18px; }
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-40%);
+  right: 5px; }
 
 .mean-container .mean-nav > ul > li:first-child > a {
   border-top: 0; }
