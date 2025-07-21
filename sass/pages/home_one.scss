@@ -984,6 +984,16 @@
     
     .trending_sidebar{
         .social_area{
+            .row{
+                @include sm{
+                    .col-lg-6{
+                        &:nth-child(2){
+                            margin-top: 20px;
+
+                        }
+                    }
+                }
+            }
             padding: 30px;
             @include border-radius(5px);
             border: 1px solid $--two;
