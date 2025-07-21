@@ -1124,6 +1124,7 @@
         width: calc(100% - 150px);
        @include sm{
         padding: 17px !important;
+        padding-top: 0px !important;
        }
     }
     .image{

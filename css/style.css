@@ -22670,7 +22670,8 @@
     width: calc(100% - 150px); }
     @media only screen and (min-width: 0px) and (max-width: 767px) {
       .trending_new_card .trending_contains {
-        padding: 17px !important; } }
+        padding: 17px !important;
+        padding-top: 0px !important; } }
   .trending_new_card .image {
     width: 150px;
     height: 150px;
