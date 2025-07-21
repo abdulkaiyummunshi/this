@@ -24773,7 +24773,7 @@
       .heading_area .sub_heading.style_3::after {
         display: none !important; } }
   .heading_area .sub_heading.style_4::after {
-    width: 80% !important; }
+    width: 80%; }
     @media only screen and (min-width: 1025px) and (max-width: 1280px) {
       .heading_area .sub_heading.style_4::after {
         width: 65% !important; } }

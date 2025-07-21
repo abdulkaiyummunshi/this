@@ -74,7 +74,7 @@
         }
         &.style_4{
             &::after{
-                width: 80% !important;
+                width: 80%;
                 @include nesthubmax{
                     width: 65% !important;
                 }
