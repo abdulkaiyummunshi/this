@@ -25722,7 +25722,8 @@
       width: 100%; } }
 
 .offcanvas__logo a img {
-  width: 150px; }
+  width: 150px;
+  margin-left: -18px; }
 
 .offcanvas__wrapper {
   position: relative;
