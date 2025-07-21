@@ -50,6 +50,9 @@
                         font-size: 18px;
                         color: $--white;
                         opacity: 0.7;
+                        a{
+                            opacity: 1;
+                        }
                     }
         .iteam_content{
             p{
@@ -58,6 +61,9 @@
                 font-size: 16px;
                 line-height: 162%;
                 color: $--text2;
+                a{
+                    color: $--white;
+                }
             }
         }
         
