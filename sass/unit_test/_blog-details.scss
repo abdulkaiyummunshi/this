@@ -58,6 +58,11 @@
 .logged-in-as{
   color: $--white;
 }
+.single-post-meta {
+  &.social{
+    flex-wrap: wrap;
+  }
+}
 .blog-area{
   position: relative;
   overflow: hidden;
@@ -1295,10 +1300,7 @@
               
             }
             .single-post-meta {
-              &.social{
-                flex-wrap: wrap;
-
-              }
+              
               display: flex;
               justify-content: space-between;
               align-items: center;
