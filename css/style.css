@@ -21826,10 +21826,14 @@
 
 .header_section {
   padding-bottom: 20px;
+  padding-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center; }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header_section {
+      padding-bottom: 0px !important; } }
   @media only screen and (min-width: 0px) and (max-width: 767px) {
     .header_section {
       padding-bottom: 0px !important; } }
