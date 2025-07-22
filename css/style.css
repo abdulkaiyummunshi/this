@@ -21827,6 +21827,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center; }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .header_section {
+      padding-bottom: 0px !important; } }
+  @media only screen and (min-width: 0px) and (max-width: 767px) {
+    .header_section {
+      padding-bottom: 0px !important; } }
   @media (min-width: 768px) and (max-width: 1199px) {
     .header_section .logo_wrapper {
       display: none; } }
