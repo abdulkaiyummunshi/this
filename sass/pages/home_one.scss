@@ -76,6 +76,9 @@
                 @include sm{
                     font-size: 13px;
                 }
+                @include xs{
+                    font-size: 12px;
+                }
                 color: $--white; 
                 padding-right: 10px;
                 position: relative;
